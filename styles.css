@@ -25,6 +25,10 @@ body{
     padding: 12.5px 16px;
     border: none;
     border-radius: 5px;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
  }
  .all_btn a{
     text-decoration: none;
@@ -40,6 +44,9 @@ body{
     color: rgb(255, 255, 255);
     /* font-size: 1.2em; */
     transition: 1s ease;
+ }
+ .all_btn img:hover{
+    cursor: pointer;
  }
  .dis_flex{
     display: flex;
@@ -206,7 +213,7 @@ body{
     align-items: start;
     gap: 20px;
 }
-.brain_content h5{
+.brain_content h4{
     color: #30B868;
     font-family: roboto;
     font-weight: 400;
@@ -216,11 +223,13 @@ body{
     font-size: 2.2em;
     font-weight: 700;
 }
-.brain_h6{
+.item1{
     display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.item1 h5{
+    font-family: open sans;
 }
 
 /* thinking section */
@@ -262,3 +271,7 @@ hr{
     align-self: center;
     
 }
+
+
+
+
