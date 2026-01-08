@@ -5,10 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
-
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +20,6 @@ body{
     max-width: 90%;
     margin: 0 auto;
 }
-
  .all_btn{
     background-color: #30B868;
     padding: 12.5px 16px;
@@ -46,11 +41,10 @@ body{
     /* font-size: 1.2em; */
     transition: 1s ease;
  }
-
  .dis_flex{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
  }
     
 /* header section */
@@ -76,7 +70,6 @@ body{
     justify-content: space-around;
     gap: 25px;
 }
-
 .nav_menu ul li{
     list-style: none;
     font-family: open sans, sans-serif;
@@ -92,12 +85,11 @@ body{
     height: 500px;
     max-width: 100%;
 }
-
 .hero_content{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 70px;
     gap: 30px;
 }
 .hero_content_h1s{
@@ -116,7 +108,6 @@ body{
     font-size: 3.5em;
     font-weight: bold;
 }
-
 .hero_content p{
     font-family: open sans;
     line-height: 28px;
@@ -131,7 +122,7 @@ body{
 .hero_btn{
     background: transparent;
     border: 1px solid rgb(255, 255, 255);
-    padding: 17px 20px;
+    padding: 16.5px 20px;
     border-radius: 5px;
 }
 .hero_btn a{
@@ -146,4 +137,55 @@ body{
     background-color: #30B868;
     cursor: pointer;
     transition: 1s ease-in;
+    border: none;
 }
+
+/* notes section */
+.notes_section{
+    margin-top: 40px;
+}
+.note_content{
+    text-align: center;
+    line-height: 35px;
+    font-family: sans-serif;
+}
+.note_content p{
+    font-size: 11px;
+    color: #627382;
+}
+.note_cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+.note_card{
+    gap: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    font-family: sans-serif;
+    padding: 20px;
+    height: 320px;
+    width: 300px;
+}
+.note_card img{
+    background-color: red;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.note_card p{
+    text-align: center;
+    color: #627382;
+    font-size: 12px;
+}
+.what{
+    text-align: center;
+    
+}
+
+/*  */
