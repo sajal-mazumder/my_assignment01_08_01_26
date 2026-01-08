@@ -217,3 +217,17 @@ body{
     align-items: start;
     justify-content: center;
 }
+
+/* thinking section */
+.thinking_section{
+    background-color: #cfceca;
+    padding: 60px 100px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.thinking_content{
+    gap: 20px;
+}
+.pTag{
+    text-align: center;
+}
