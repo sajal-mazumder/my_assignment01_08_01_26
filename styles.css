@@ -46,6 +46,10 @@ body{
     flex-direction: column;
     align-items: center;
  }
+ .all_pTag{
+    color: #627382;
+    font-size: 11px;
+ }
     
 /* header section */
 
@@ -149,10 +153,6 @@ body{
     line-height: 35px;
     font-family: sans-serif;
 }
-.note_content p{
-    font-size: 11px;
-    color: #627382;
-}
 .note_cards{
     display: flex;
     justify-content: space-between;
@@ -170,6 +170,11 @@ body{
     height: 320px;
     width: 300px;
 }
+.note_card p{
+    color: #627382;
+    font-size: 12px;
+    text-align: center;
+}
 .note_card img{
     background-color: red;
     border-radius: 100%;
@@ -178,14 +183,37 @@ body{
     padding: 10px;
     margin-top: 20px;
 }
-.note_card p{
-    text-align: center;
-    color: #627382;
-    font-size: 12px;
-}
 .what{
     text-align: center;
     
 }
 
-/*  */
+/* second brain section */
+.brain_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+.brain_content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.brain_content h5{
+    color: #30B868;
+    font-family: roboto;
+    font-weight: 400;
+}
+.brain_content h2{
+    font-family: open sans, sans-serif;
+    font-size: 2.2em;
+    font-weight: 700;
+}
+.brain_h6{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
