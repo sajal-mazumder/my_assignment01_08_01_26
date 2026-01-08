@@ -49,7 +49,12 @@ body{
  .all_pTag{
     color: #627382;
     font-size: 11px;
+    font-family: open sans;
  }
+ .pTag{
+    text-align: center;
+    font-family: open sans;
+}
     
 /* header section */
 
@@ -83,7 +88,7 @@ body{
 /* hero section */
 
 .hero_section{
-    background: url(./rscs/hero-bg.png);
+    background: linear-gradient(to bottom, rgba(94, 75, 75, 0.6), rgba(0,0,0,0.6)),url(./rscs/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -228,6 +233,32 @@ body{
 .thinking_content{
     gap: 20px;
 }
-.pTag{
-    text-align: center;
+
+/* footer section */
+.footer_section{
+    background-color: #001931;
+    width: 100%;
+    height: 200px;
+    padding: 20px 100px;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.footer_links{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+}
+.social_icons{
+    /* color: rgb(255, 255, 255); */
+    padding: 0 13px;
+}
+hr{
+    /* width: 85%; */
+    margin: 30px ;
+    align-self: center;
+    
 }
